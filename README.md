@@ -1,6 +1,6 @@
 # VideoPlayer
 
-A swift framework to play videos from an external URL.
+A minimal video player written in swift that plays videos from external refs.
 
 ## License
 
