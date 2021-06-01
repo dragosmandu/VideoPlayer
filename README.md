@@ -1,6 +1,6 @@
 # VideoPlayer
 
-A minimal video player written in swift that plays videos from external refs.
+A minimal video player wrote in swift that plays videos from external refs.
 
 ## License
 
