@@ -118,6 +118,15 @@ public extension VideoPlayerViewController
         }
     }
     
+    func updateCurrentVideoWith(newPlayerItem: AVPlayerItem)
+    {
+        
+        VideoPlayerViewController.s_Logger.debug("Updating video with new player item.")
+        
+        m_PlayerLayer.player?.replaceCurrentItem(with: newPlayerItem)
+        m_PlayerLayer.player?.currentItem?.preferredMaximumResolution = .zero
+    }
+    
     func updateVideoGravityTo(newVideoGravity: AVLayerVideoGravity)
     {
         if m_IsVideoGravityChangeable
